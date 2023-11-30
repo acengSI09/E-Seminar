@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> 
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- ini navbar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Kegiatan
+                        </a>
+                      </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Peserta
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+          <!-- tutup navbar -->
+
+          <!-- ini breadcrumb -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Kegiatan</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Peserta</li>
+            </ol>
+          </nav>
+            <!-- tutup breadcrumb -->
+
+            <!-- ini form -->
+            <form>
+              <div class="form-group">
+                <label for="text"></label> 
+                <input id="text" name="text" placeholder="Form" type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="text1"></label> 
+                <input id="text1" name="text1" placeholder="To" type="text" class="form-control">
+              </div> 
+              </div>
+            <div class="container-fluid">
+              <div class="form-group">
+                <label for="text2">Tanggal daftar</label> 
+                <input id="text2" name="text2" placeholder="sadas" type="date" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="text"></label> 
+                <input id="text" name="text" placeholder="saassasd" type="date" class="form-control">
+              </div> 
+              </div>
+            </form>
+      
+            </div>
+            <div class="container-fluid">
+            <div class="form-group">
+              <label for="select">Kategori peserta</label> 
+              <div>
+                <select id="select" name="select" class="custom-select">
+                  <option value="mahasiswa">Mahasiswa</option>
+                  <option value="nonmahasiswa">Non Mahasiswa</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="select1">Status  Peserta</label> 
+              <div>
+                <select id="select1" name="select1" class="custom-select">
+                  <option value="booking">Booking</option>
+                  <option value="eak">Eak</option>
+                </select>
+              </div>
+            </div> 
+            <div class="form-group">
+              <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </div>
+            <!-- tutup form -->
+    </div>
+
